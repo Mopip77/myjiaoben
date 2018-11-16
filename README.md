@@ -5,10 +5,13 @@
 
 - **photoscaner**  
     图片的OCR，转base64，上传到图床([sm.ms](https://sm.ms))，后将信息保存到剪贴板。
-    在babun中使用alias绑定，pso(OCR),psb(Base64),psu(Upload)
+    在babun中使用alias绑定，pso(OCR)，psb(Base64)，psu(Upload)
 
 - **photoscaner_gui**  
     图形化的photoscaner，用ahk绑定快捷键以方便调用  
+
+- **my.ahk**
+    设置键盘快捷键，需要配合[AutoHotKey](https://www.autohotkey.com/download/)执行  
 
 
 
