@@ -18,9 +18,9 @@ class PhotoScaner(object):
     """
     def __init__(self, filepath):
         self.filePath = filepath
-        self.img = self.get_file_content(filepath)
+        self.img = self.__get_file_content(filepath)
 
-    def get_file_content(self, filepath):
+    def __get_file_content(self, filepath):
         with open(filepath, 'rb') as f:
             return f.read()
 
