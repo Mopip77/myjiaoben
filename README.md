@@ -13,5 +13,8 @@
 - **my.ahk**
     设置键盘快捷键，需要配合[AutoHotKey](https://www.autohotkey.com/download/)执行  
 
+- **download_BB_class_pdf**
+    自动下载BB平台的的课件
+
 
 
